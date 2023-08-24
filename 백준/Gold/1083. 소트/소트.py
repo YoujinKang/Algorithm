@@ -14,7 +14,7 @@ while s > 0:
         if s == 0:
             break
     id += 1
-    if id >= n - 1:
+    if id >= len(a) - 1:
         break
 
 
