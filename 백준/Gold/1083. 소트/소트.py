@@ -14,7 +14,7 @@ while s > 0:
         if s == 0:
             break
     id += 1
-    if id >= len(a) - 1:
+    if id >= n - 1:  # id == n-1 에서 종료할 시에 n=1에서 에러
         break
 
 
